@@ -1,0 +1,3 @@
+/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir
