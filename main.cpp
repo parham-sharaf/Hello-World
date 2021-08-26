@@ -12,7 +12,7 @@ int main()
 //    hello1Function(name1);
     string name2 = "Parham Sharafoleslami";
     hello2Function(name2);
-//    string name3 = "Seth Tran";
-//    hello2Function(name3);
+    string name3 = "Seth Tran";
+    hello2Function(name3);
     return 0;
 }
