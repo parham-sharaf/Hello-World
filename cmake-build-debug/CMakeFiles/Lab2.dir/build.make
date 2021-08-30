@@ -79,9 +79,22 @@ CMakeFiles/Lab2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/main.cpp" -o CMakeFiles/Lab2.dir/main.cpp.s
 
+CMakeFiles/Lab2.dir/hello1Function.cpp.o: CMakeFiles/Lab2.dir/flags.make
+CMakeFiles/Lab2.dir/hello1Function.cpp.o: ../hello1Function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab2.dir/hello1Function.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/hello1Function.cpp.o -c "/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/hello1Function.cpp"
+
+CMakeFiles/Lab2.dir/hello1Function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/hello1Function.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/hello1Function.cpp" > CMakeFiles/Lab2.dir/hello1Function.cpp.i
+
+CMakeFiles/Lab2.dir/hello1Function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/hello1Function.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/hello1Function.cpp" -o CMakeFiles/Lab2.dir/hello1Function.cpp.s
+
 CMakeFiles/Lab2.dir/hello2Function.cpp.o: CMakeFiles/Lab2.dir/flags.make
 CMakeFiles/Lab2.dir/hello2Function.cpp.o: ../hello2Function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab2.dir/hello2Function.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab2.dir/hello2Function.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/hello2Function.cpp.o -c "/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/hello2Function.cpp"
 
 CMakeFiles/Lab2.dir/hello2Function.cpp.i: cmake_force
@@ -92,19 +105,36 @@ CMakeFiles/Lab2.dir/hello2Function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/hello2Function.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/hello2Function.cpp" -o CMakeFiles/Lab2.dir/hello2Function.cpp.s
 
+CMakeFiles/Lab2.dir/hello3Function.cpp.o: CMakeFiles/Lab2.dir/flags.make
+CMakeFiles/Lab2.dir/hello3Function.cpp.o: ../hello3Function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab2.dir/hello3Function.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/hello3Function.cpp.o -c "/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/hello3Function.cpp"
+
+CMakeFiles/Lab2.dir/hello3Function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/hello3Function.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/hello3Function.cpp" > CMakeFiles/Lab2.dir/hello3Function.cpp.i
+
+CMakeFiles/Lab2.dir/hello3Function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/hello3Function.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/hello3Function.cpp" -o CMakeFiles/Lab2.dir/hello3Function.cpp.s
+
 # Object files for target Lab2
 Lab2_OBJECTS = \
 "CMakeFiles/Lab2.dir/main.cpp.o" \
-"CMakeFiles/Lab2.dir/hello2Function.cpp.o"
+"CMakeFiles/Lab2.dir/hello1Function.cpp.o" \
+"CMakeFiles/Lab2.dir/hello2Function.cpp.o" \
+"CMakeFiles/Lab2.dir/hello3Function.cpp.o"
 
 # External object files for target Lab2
 Lab2_EXTERNAL_OBJECTS =
 
 Lab2: CMakeFiles/Lab2.dir/main.cpp.o
+Lab2: CMakeFiles/Lab2.dir/hello1Function.cpp.o
 Lab2: CMakeFiles/Lab2.dir/hello2Function.cpp.o
+Lab2: CMakeFiles/Lab2.dir/hello3Function.cpp.o
 Lab2: CMakeFiles/Lab2.dir/build.make
 Lab2: CMakeFiles/Lab2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Lab2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/parham/Personal/School/Saddleback/2021 Fall/CS 1D/Labs/Lab2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Lab2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

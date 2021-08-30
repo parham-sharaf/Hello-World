@@ -5,4 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Lab2
         main.cpp
-        hello2Function.cpp)
+        hello1Function.cpp
+        hello2Function.cpp
+        hello3Function.cpp
+        )

@@ -129,6 +129,30 @@ Lab2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/build
 .PHONY : Lab2/fast
 
+hello1Function.o: hello1Function.cpp.o
+.PHONY : hello1Function.o
+
+# target to build an object file
+hello1Function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/hello1Function.cpp.o
+.PHONY : hello1Function.cpp.o
+
+hello1Function.i: hello1Function.cpp.i
+.PHONY : hello1Function.i
+
+# target to preprocess a source file
+hello1Function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/hello1Function.cpp.i
+.PHONY : hello1Function.cpp.i
+
+hello1Function.s: hello1Function.cpp.s
+.PHONY : hello1Function.s
+
+# target to generate assembly for a file
+hello1Function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/hello1Function.cpp.s
+.PHONY : hello1Function.cpp.s
+
 hello2Function.o: hello2Function.cpp.o
 .PHONY : hello2Function.o
 
@@ -152,6 +176,30 @@ hello2Function.s: hello2Function.cpp.s
 hello2Function.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/hello2Function.cpp.s
 .PHONY : hello2Function.cpp.s
+
+hello3Function.o: hello3Function.cpp.o
+.PHONY : hello3Function.o
+
+# target to build an object file
+hello3Function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/hello3Function.cpp.o
+.PHONY : hello3Function.cpp.o
+
+hello3Function.i: hello3Function.cpp.i
+.PHONY : hello3Function.i
+
+# target to preprocess a source file
+hello3Function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/hello3Function.cpp.i
+.PHONY : hello3Function.cpp.i
+
+hello3Function.s: hello3Function.cpp.s
+.PHONY : hello3Function.s
+
+# target to generate assembly for a file
+hello3Function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/hello3Function.cpp.s
+.PHONY : hello3Function.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,9 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Lab2"
+	@echo "... hello1Function.o"
+	@echo "... hello1Function.i"
+	@echo "... hello1Function.s"
 	@echo "... hello2Function.o"
 	@echo "... hello2Function.i"
 	@echo "... hello2Function.s"
+	@echo "... hello3Function.o"
+	@echo "... hello3Function.i"
+	@echo "... hello3Function.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

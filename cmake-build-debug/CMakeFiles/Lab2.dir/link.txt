@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Lab2.dir/main.cpp.o CMakeFiles/Lab2.dir/hello2Function.cpp.o -o Lab2 
+/usr/bin/c++ -g CMakeFiles/Lab2.dir/main.cpp.o CMakeFiles/Lab2.dir/hello1Function.cpp.o CMakeFiles/Lab2.dir/hello2Function.cpp.o CMakeFiles/Lab2.dir/hello3Function.cpp.o -o Lab2 
